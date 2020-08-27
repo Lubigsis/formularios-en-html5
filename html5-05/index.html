@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer formulario</title>
+</head>
+<body>
+    <h1>Conociendo un poco de formularios</h1>
+
+    <form method=""> <!--Cuando se trabaja con backend, se trabaja con method-->
+        <input type="text" required="" name="" value="">  <!--Input es la entrada de datos del usuario- El name se utiliza como identificador para el backend-->
+        <!--Value es el valor que ingresa a cada campo; se usa en Js-->
+        <input type="password" required="" name="" value=""> 
+        <input type="number" name="">
+        <input type="email" name=""> <!--Esto como es una validación hecha del lado del frontend puede ser hackeado más fácilmente; por ello es mejor hacerlas del lado del backend-->
+        <input type="color" name="">
+        <input type="range" min="1" max="5" name=""> <!--Te permite elegir un n° dentro del rago que le coloques-->
+        <input type="date" name="">
+        <input type="time" name="">
+        <input type="button" value="Este es un botón" name=""> <!--El button si o si debe tener que tener el 'value: que es siempre lo que nos va a devolver ese input. Lo que se escribe en value, es lo que aparecerá escrito en ese botón-->
+        <textarea readonly="">Esta es un área de texto</textarea> <!--Es un campo al que se le puede dar la resolución que querramos. Aunque tenemos la opción de darle 'readonly', para mostrar algo dentro. También puede funcionar como input, es decir, que se envíe lo que el usuario escriba-->
+
+        <input type="submit" value="enviar" name=""> <!--El type submit es un botón que te envía los datos. Viene con un value por defecto que es 'enviar', si estuviéramos en EE.UU. diría submit; si es que no le aclaramos ese valor. El navegador determina el idioma local-->
+
+
+        <!--'type': Al usuario se le puede pedir que ingrese información con formato de tipo texto, contraseña, número, correo electrónico, color, rango-->
+
+        <!--El atributo 'required' significa que es un campo que se debe completar si o si-->
+
+
+    </form>
+</body>
+</html>
